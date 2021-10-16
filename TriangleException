@@ -1,0 +1,7 @@
+public class TriangleException extends Exception {
+
+        public String toString() {
+
+            return "Impossible (One or more angles less \"1\" or more \"180\" degree)";
+        }
+}
